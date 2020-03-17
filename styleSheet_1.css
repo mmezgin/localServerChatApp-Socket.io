@@ -1,0 +1,176 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(89,81,81,1) 100%);
+  }
+ 
+  #message-container {
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  #message-container div {
+    background-color:  rgba(209, 209, 209, 0.473);
+    padding: 5px;
+  }
+
+  #message-container div:nth-child(2n) {
+    background-color: rgba(196, 196, 196, 0.473);
+  }
+
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(89,81,81,1) 100%);
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+  }
+
+  #message-input {
+    flex-grow: 1;
+  }
+  
+  #send-button{
+    background-color: white;
+  -webkit-animation: color-change 1s infinite;
+      -moz-animation: color-change 1s infinite;
+      -o-animation: color-change 1s infinite;
+      -ms-animation: color-change 1s infinite;
+      animation: color-change 1s infinite;
+}
+@-webkit-keyframes color-change {
+  0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px ;
+  }
+  50% {
+       color: blue;
+       color: #1f00aa;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+  100% {
+       color: yellow;
+       color: #c7b518;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+}
+@-moz-keyframes color-change {
+  0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px ;
+  }
+  50% {
+       color: blue;
+       color: #1f00aa;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+  100% {
+       color: yellow;
+       color: #c7b518;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+}
+@-ms-keyframes color-change {
+  0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px ;
+  }
+  50% {
+       color: blue;
+       color: #1f00aa;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+  100% {
+       color: yellow;
+       color: #c7b518;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+}
+@-o-keyframes color-change {
+  0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px ;
+  }
+  50% {
+       color: blue;
+       color: #1f00aa;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+  100% {
+       color: yellow;
+       color: #c7b518;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+}
+@keyframes color-change {
+  0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px ;
+  }
+  50% {
+       color: blue;
+       color: #1f00aa;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+  100% {
+       color: yellow;
+       color: #c7b518;
+       font-family: "League Gothic", Impact, sans-serif;
+       line-height: 0.5em;
+       letter-spacing: 0.02em;
+       text-shadow: 0px 0px 6px ;
+       }
+}
